@@ -1,5 +1,5 @@
 '''
-# Original Script by [Author's Name] (GitHub: [GitHub Username])
+# Original Script by : Jangari-nTK
 # Original Script URL: https://github.com/Jangari-nTK/pyvmomi-instant-clone-sample/blob/master/instant_clone.py
 # Modified by : VENU S N
 # Date: 02-nov-2023
