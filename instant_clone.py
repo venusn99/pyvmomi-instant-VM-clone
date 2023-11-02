@@ -3,8 +3,7 @@
 # Original Script URL: https://github.com/Jangari-nTK/pyvmomi-instant-clone-sample/blob/master/instant_clone.py
 # Modified by : VENU S N
 # Date: 02-nov-2023
-# Modified Script URL: 
-
+# Modified Script URL: https://github.com/venusn99/pyvmomi-instant-VM-clone
 '''
 
 from pyVmomi import vim
@@ -72,6 +71,8 @@ def main():
         new_datacenter = input("(optional) Enter the Datacenter name for new destination VM\n")
         new_vm_folder = input("(optional) Enter the VM folder name for new destination VM\n")
         new_cluster = input("(optional) Enter the cluster name for new destination VM\n")
+
+        print("See the progress in vCenter and Wait till the script exists\n")
         for num in range(1, number_of_clones + 1):
             new_vm = f"{prefix_for_clone}-{num}"
             instant_clone_vm(content, parent_vm, new_vm,
